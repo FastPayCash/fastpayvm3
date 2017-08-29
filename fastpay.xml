@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension version="1.0" type="plugin" group="vmpayment" method="upgrade">
+	<name>VM Payment - FASTPAY</name>
+	<creationDate>AUGUST 25 2017</creationDate>
+	<author>FastPay</author>
+	<authorUrl>http://fast-pay.cash</authorUrl>
+	<copyright>Copyright (C) 2017 FASTPAY. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>3.0.2</version>
+	<description><![CDATA[<a href="http://www.fast-pay.com" target="_blank">FastPay</a> a Wallet System. ]]>
+	</description>
+
+	<files>
+		<filename plugin="fastpay">fastpay.php</filename>
+		<filename>composer.json</filename>
+		<filename>composer.lock</filename>
+		<folder>language</folder>
+		<folder>vendor</folder>
+	</files>
+	
+	<vmconfig>
+		<fields name="params">
+			<fieldset name="payment" addfieldpath="/administrator/components/com_virtuemart/fields">
+				<field name="fastpay_account" type="text" scope="com_virtuemart" label="VMPAYMENT_FASTPAY_ACCOUNT"
+				description="VMPAYMENT_FASTPAY_ACCOUNT">
+				</field>
+				<field name="fastpay_psbid" type="text" scope="com_virtuemart" label="VMPAYMENT_FASTPAY_PSBID" description="VMPAYMENT_FASTPAY_PSBID"></field>
+				<field name="fastpay_securecode" type="text" scope="com_virtuemart" label="VMPAYMENT_FASTPAY_SECURECODE" description="VMPAYMENT_FASTPAY_SECURECODE"></field>
+				<field name="fastpay_demo" type="radio"
+				label="VMPAYMENT_FASTPAY_SERVER"
+				description="VMPAYMENT_FASTPAY_SERVER"
+				default="0">
+					<option value="0">COM_VIRTUEMART_NO</option>
+					<option value="1">COM_VIRTUEMART_YES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</vmconfig>
+
+
+</extension>

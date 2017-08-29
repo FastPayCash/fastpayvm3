@@ -1,0 +1,5 @@
+{
+	"require": {
+		"fastpay/fastpay-php": "dev-master"
+	}
+}

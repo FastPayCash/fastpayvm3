@@ -1,0 +1,47 @@
+[
+    {
+        "name": "paysbuy/paysbuy-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paysbuy/paysbuy-php.git",
+            "reference": "b6173288fcb518253fa8080360fd9b6c4c9a2326"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paysbuy/paysbuy-php/zipball/b6173288fcb518253fa8080360fd9b6c4c9a2326",
+            "reference": "b6173288fcb518253fa8080360fd9b6c4c9a2326",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2016-11-23 05:10:40",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "lib/paysbuy/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "OSL"
+        ],
+        "authors": [
+            {
+                "name": "Paysbuy",
+                "email": "support@paysbuy.com"
+            }
+        ],
+        "description": "Paysbuy API PHP Lib",
+        "homepage": "https://github.com/paysbuy/paysbuy-php.git",
+        "keywords": [
+            "creditcard",
+            "debitcard",
+            "payment",
+            "paysbuy"
+        ]
+    }
+]

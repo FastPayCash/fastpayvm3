@@ -1,0 +1,22 @@
+{
+	"name": "paysbuy/paysbuy-php",
+	"description": "Paysbuy API PHP Lib",
+    "keywords": ["paysbuy", "payment", "debitcard", "creditcard"],
+    "homepage": "https://github.com/paysbuy/paysbuy-php.git",
+    "authors": [
+        {
+          "name": "Paysbuy",
+          "email": "support@paysbuy.com"
+        }
+    ],
+	"type": "library",
+	"license": "OSL",
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"classmap": ["lib/paysbuy/"]
+	}
+}

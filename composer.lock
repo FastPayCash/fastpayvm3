@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "bb0f541369946d644c6c49cb0fee2947",
+    "content-hash": "d5935768abef56ed863eefcda0dc4cf8",
+    "packages": [
+        {
+            "name": "fastpay/fastpay-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fastpay/fastpay-php.git",
+                "reference": "b6173288fcb518253fa8080360fd9b6c4c9a2326"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fastpay/fastpay-php/zipball/b6173288fcb518253fa8080360fd9b6c4c9a2326",
+                "reference": "b6173288fcb518253fa8080360fd9b6c4c9a2326",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/fastpay/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL"
+            ],
+            "authors": [
+                {
+                    "name": "fastpay",
+                    "email": "support@fastpay.com"
+                }
+            ],
+            "description": "fastpay API PHP Lib",
+            "homepage": "https://github.com/fastpay/fastpay-php.git",
+            "keywords": [
+                "creditcard",
+                "debitcard",
+                "payment",
+                "fastpay"
+            ],
+            "time": "2016-11-23 05:10:40"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fastpay/fastpay-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
